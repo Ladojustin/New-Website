@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "name": "Kr. Shaurya Preet",
+    "role": "Sr. Web Designer",
+    "rating": 4.6,
+    "hourlyRate": 70,
+    "experience": 5,
+    "image": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Elaine W. Cook",
+    "role": "Sr. Team Leader",
+    "rating": 4.9,
+    "hourlyRate": 65,
+    "experience": 7,
+    "image": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Raymond H. Cato",
+    "role": "UI/UX Designer",
+    "rating": 2.8,
+    "hourlyRate": 50,
+    "experience": 4,
+    "image": "https://randomuser.me/api/portraits/men/54.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Amanda R. Greene",
+    "role": "Product Manager",
+    "rating": 4.3,
+    "hourlyRate": 80,
+    "experience": 6,
+    "image": "https://randomuser.me/api/portraits/women/68.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Liam J. Stewart",
+    "role": "Software Engineer",
+    "rating": 4.7,
+    "hourlyRate": 75,
+    "experience": 5,
+    "image": "https://randomuser.me/api/portraits/men/41.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Diana K. Young",
+    "role": "Frontend Developer",
+    "rating": 4.1,
+    "hourlyRate": 60,
+    "experience": 4,
+    "image": "https://randomuser.me/api/portraits/women/50.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Oscar M. Barnes",
+    "role": "Backend Developer",
+    "rating": 4.8,
+    "hourlyRate": 78,
+    "experience": 6,
+    "image": "https://randomuser.me/api/portraits/men/39.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Nina T. James",
+    "role": "QA Engineer",
+    "rating": 4.2,
+    "hourlyRate": 55,
+    "experience": 3,
+    "image": "https://randomuser.me/api/portraits/women/30.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ethan P. Wright",
+    "role": "DevOps Engineer",
+    "rating": 4.5,
+    "hourlyRate": 85,
+    "experience": 7,
+    "image": "https://randomuser.me/api/portraits/men/23.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Sophie L. Edwards",
+    "role": "UX Researcher",
+    "rating": 4.0,
+    "hourlyRate": 62,
+    "experience": 4,
+    "image": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Benjamin A. Ward",
+    "role": "Data Analyst",
+    "rating": 3.9,
+    "hourlyRate": 58,
+    "experience": 3,
+    "image": "https://randomuser.me/api/portraits/men/70.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Laura C. Bennett",
+    "role": "Marketing Manager",
+    "rating": 4.6,
+    "hourlyRate": 68,
+    "experience": 6,
+    "image": "https://randomuser.me/api/portraits/women/27.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Jacob F. Bell",
+    "role": "UI Developer",
+    "rating": 4.4,
+    "hourlyRate": 60,
+    "experience": 4,
+    "image": "https://randomuser.me/api/portraits/men/36.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Mia H. Martinez",
+    "role": "Content Strategist",
+    "rating": 4.7,
+    "hourlyRate": 66,
+    "experience": 5,
+    "image": "https://randomuser.me/api/portraits/women/38.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Caleb R. Mitchell",
+    "role": "System Architect",
+    "rating": 4.9,
+    "hourlyRate": 95,
+    "experience": 8,
+    "image": "https://randomuser.me/api/portraits/men/17.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Chloe G. Bryant",
+    "role": "Project Coordinator",
+    "rating": 4.3,
+    "hourlyRate": 63,
+    "experience": 5,
+    "image": "https://randomuser.me/api/portraits/women/60.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Nathan E. Foster",
+    "role": "Scrum Master",
+    "rating": 4.5,
+    "hourlyRate": 70,
+    "experience": 6,
+    "image": "https://randomuser.me/api/portraits/men/77.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Olivia T. Ross",
+    "role": "HR Specialist",
+    "rating": 4.0,
+    "hourlyRate": 52,
+    "experience": 3,
+    "image": "https://randomuser.me/api/portraits/women/16.jpg"
+  }
+  
+]

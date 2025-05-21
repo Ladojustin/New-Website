@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+   <component 
+    :is="activeComp" 
+    @login-success="handleLoginSuccess"
+  ></component>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LoginForm from './components/LoginForm.vue';
+import DashBoard from './components/DashBoard.vue';
 
 export default {
   name: 'App',
+  data(){
+    return{
+       toggleValue: true 
+    }
+  },
   components: {
-    HelloWorld
+    LoginForm,
+    DashBoard
+  },
+  computed: {
+    activeComp() {
+      return this.toggleValue ? 'LoginForm' : 'DashBoard';
+    }
+  },
+  methods: {
+    handleLoginSuccess(user) {
+      console.log('Logged in as:', user); 
+      this.toggleValue = false; 
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
