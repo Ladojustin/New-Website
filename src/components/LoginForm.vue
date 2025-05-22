@@ -1,7 +1,7 @@
 <template>
-    <div class="login-container">
-    <img id="logo-img" alt="logo" src="../assets/rose.jpg">
-    <h2 class="login-title">Hello, Again</h2>
+    <div class="login-container justify-content-center align-items-center mt-3">
+    <img id="logo-img" alt="logo" src="../assets/logo.png">
+    <h2 class="login-title" style="font-family: 'Poppins',sans-serif;">Hello, Again</h2>
     
     <form @submit.prevent="handleLogin" class="login-form">
       <div class="form-group">
@@ -13,6 +13,7 @@
         <input type="password" id="password" autocomplete="new-password" v-model="password" required  placeholder="Enter your password"/>
       </div>
       
+      <button @click="nexpg= !nexpg" type="submit" class="login-button">Log in</button>
       <div class="form-options">
         <div class="remember-me">
           <input type="checkbox" id="remember" v-model="rememberMe" />
@@ -20,14 +21,13 @@
         </div>
         <a href="#" class="forgot-password" @click.prevent="handleForgotPassword">Forget Password?</a>
       </div>
-      <button @click="nexpg= !nexpg" type="submit" class="login-button">Log in</button>
       
       <div class="social-login">
         <div class="social-buttons">
-          <button type="button" class="social-button facebook" @click="loginWithFacebook">
+          <button type="button" class="social-button facebook w-50" @click="loginWithFacebook">
             <i class="fa-brands fa-facebook"></i>Facebook
           </button>
-          <button type="button" class="social-button google" @click="loginWithGoogle">
+          <button type="button" class="social-button google btn-danger w-50 " @click="loginWithGoogle">
             <i class="fab fa-google"></i> Google
           </button>
         </div>
@@ -38,7 +38,7 @@
       
       <div v-if="errorMessage" class="error-message">{{ errorMessage }}</div>
     </form>
-  </div>
+    </div>
 </template>
 <script>
 import User from '@/model/user.js';
@@ -120,17 +120,18 @@ export default{
 
 <style scoped>
 .login-container {
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
   padding: 2rem;
   background: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.466);
+
 }
 
 .login-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 0.5rem;
   color: #333;
 }
@@ -146,15 +147,15 @@ export default{
 }
 
 #logo-img{
-    height: 50px;
-    width: 50px;
+    height: 65px;
+    width: 65px;
     display: block;
     margin: 0 auto;         
     border-radius: 40%; 
 }
 
 .form-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .form-group label {
   display: block;
@@ -197,7 +198,7 @@ export default{
 }
 
 .login-button {
-  background-color: #02920e;
+  background-color: #029262f6;
   color: white;
   padding: 0.75rem;
   border: none;
@@ -209,18 +210,18 @@ export default{
 }
 
 .login-button:hover {
-  background-color: #13f125;
+  background-color: #8df7dc;
 }
 
 .social-login {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .social-buttons {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 4rem;
 }
 
 .social-button {
@@ -230,20 +231,19 @@ export default{
   padding: 0.5rem 1rem;
   border: 1px solid #ddd;
   border-radius: 5px;
-  background: white;
   cursor: pointer;
   font-size: 0.9rem;
 }
 
 .social-button:hover {
-  background-color: #f5f5f5;
+  background-color: #a8a5a5;
 }
 .facebook {
-  color: #1877f2;
+  background-color: #0e4fa5;
 }
 
 .google {
-  color: #ea4335;
+  background-color: #f3584a;
 }
 
 .signup-link {
